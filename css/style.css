@@ -37,7 +37,7 @@ body {
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  margin: 0 0 25px 0;
+  margin: 0 0 5px 0;
   color: black;
 }
 
@@ -48,9 +48,21 @@ body {
   line-height: 24px;
   color: #595959;
   width: 400px;
+  margin: 5px 5px 5px 0;
 }
+
 .about-me {
   background-color: white;
+}
+
+.about-me-summary {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 600px;
+  margin: 5px 5px 5px 0;
 }
 
 /* Загаловки */
@@ -219,6 +231,11 @@ body {
 }
 
 /* Tech-skills-list */
+
+.Tech-skills-list-ul {
+  padding: 0 0 0 17px;
+  column-count: 2;
+}
 
 .Tech-skills-list {
   padding: 0 0 0 17px;
