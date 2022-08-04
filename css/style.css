@@ -40,7 +40,7 @@ body {
   margin: 0 0 5px 0;
   color: black;
 }
-
+/* 
 .about-me-life {
   font-style: normal;
   font-weight: normal;
@@ -49,7 +49,7 @@ body {
   color: #595959;
   width: 400px;
   margin: 5px 5px 5px 0;
-}
+} */
 
 .about-me {
   background-color: white;
@@ -61,7 +61,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  width: 600px;
+  /*   width: 600px; */
   margin: 5px 5px 5px 0;
 }
 
@@ -91,6 +91,7 @@ body {
 }
 
 .my-projects-text {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -101,12 +102,11 @@ body {
 
 /* bracket */
 .my-projects-bracket {
-  font-style: normal;
+  font-style: bold;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
-  font-weight: bold;
 }
 
 .Href {
@@ -227,7 +227,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #727983;
+  color: white;
 }
 
 /* Tech-skills-list */
